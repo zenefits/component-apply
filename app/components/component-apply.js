@@ -1,0 +1,1 @@
+export { default } from 'ember-component-apply/components/component-apply';
