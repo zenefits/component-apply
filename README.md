@@ -1,6 +1,20 @@
 # Ember-component-apply
+[![Build Status](https://travis-ci.org/zenefits/ember-component-apply.svg?branch=master)](https://travis-ci.org/zenefits/ember-component-apply)
 
-This README outlines the details of collaborating on this Ember addon.
+
+Simply component-helper that will apply a given hash to the specified component. 
+
+### Usage
+
+```
+ember install git@github.com:zenefits/component-apply.git
+```
+
+```
+{{#component-apply 'my-component' hashOfAttrs anotherAttr=42 }}
+  template block text
+{{/component-apply}}
+```
 
 ## Installation
 
