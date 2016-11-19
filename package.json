@@ -9,9 +9,13 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:each"
+    "test": "ember try:each",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenefits/ember-component-apply.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -37,7 +41,8 @@
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
     "ember-welcome-page": "^1.0.1",
-    "loader.js": "^4.0.1"
+    "loader.js": "^4.0.1",
+    "semantic-release": "^6.3.2"
   },
   "keywords": [
     "ember-addon"
